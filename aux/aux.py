@@ -1,5 +1,4 @@
 import twitter
-from pymongo import MongoClient
 from dateutil.parser import *
 import datetime
 import pytz
