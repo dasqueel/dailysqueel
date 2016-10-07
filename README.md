@@ -4,7 +4,7 @@ NFL team information aggregator: depth chart, beat writer tweets, links to sbnat
 #### preface:
 This is my first attempt to host a repo on github, so bare with me :D
 
-step 1:
+## Installation
 
 clone the repository
 
@@ -12,15 +12,17 @@ clone the repository
 git clone https://github.com/dasqueel/dailysqueel.git
 ```
 
-step 2:
+pip install requirements
+```
+pip install -r requirements.txt
+```
+
+## Usage
 ```
 cd dailysqueel
 
 python ds.py
 ```
-
-
-step 3:
 
 open browser and enter, 127.0.0.1:5000/awayTeamAbbreviation@homeTeamAbbreviation
 
