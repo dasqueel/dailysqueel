@@ -8,6 +8,10 @@ step 1:
 
 clone the repository
 
+```
+git clone https://github.com/dasqueel/dailysqueel.git
+```
+
 step 2:
 ```
 cd dailysqueel
