@@ -26,18 +26,39 @@ open browser and enter, 127.0.0.1:5000/awayTeamAbbreviation@homeTeamAbbreviation
 
 you should be good to go!
 
-# H4
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes |      |    $1 |
+# Team Abbreviations
 
 |Team | Abbreviation |
 |:---:|:---:|
 |Minnesota|min|
 |Green Bay|gb|
-|||
-|||
-|||
+|Detroit|det|
+|Chicago|chi|
+|New York Giants|nyg|
+|Dallas|dal|
+|Philadelphia|phi|
+|Washington|was|
+|Tampa Bay|tb|
+|New Orleans|no|
+|Carolina|car|
+|Atlanta|atl|
+|San Francisco|sf|
+|Seattle|sea|
+|Arizona|arz|
+|Los Angeles|ram|
+|New England|ne|
+|New York Jets|nyj|
+|Buffalo|buf|
+|Miami|mia|
+|Indianapolis|ind|
+|Houston|hou|
+|Jacksonville|jax|
+|Tennessee|ten|
+|Pittsburgh|pit|
+|Cleveland|cle|
+|Baltimore|bal|
+|Cincinatti|cin|
+|Denver|den|
+|Kansas City|kc|
+|Oakland|oak|
+|San Diego|sd|
