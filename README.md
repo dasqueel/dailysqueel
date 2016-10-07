@@ -26,7 +26,7 @@ open browser and enter, 127.0.0.1:5000/awayTeamAbbreviation@homeTeamAbbreviation
 
 you should be good to go!
 
-# Team Abbreviations
+### Team Abbreviations
 
 |Team | Abbreviation |
 |:---:|:---:|
