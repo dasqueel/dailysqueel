@@ -25,3 +25,19 @@ step 3:
 open browser and enter, 127.0.0.1:5000/awayTeamAbbreviation@homeTeamAbbreviation
 
 you should be good to go!
+
+# H4
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes |      |    $1 |
+
+|Team | Abbreviation |
+|:---:|:---:|
+|Minnesota|min|
+|Green Bay|gb|
+|||
+|||
+|||
