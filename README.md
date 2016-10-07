@@ -9,8 +9,12 @@ step 1:
 clone the repository
 
 step 2:
+'''
+cd dailysqueel
 
 python bs.py
+'''
+
 
 step 3:
 
