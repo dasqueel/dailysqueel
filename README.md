@@ -14,6 +14,6 @@ python bs.py
 
 step 3:
 
-open browser and enter, 127.0.0.1:5000/"<awayTeamAbbreviation"@"<homeTeamAbbreviation>"
+open browser and enter, 127.0.0.1:5000/awayTeamAbbreviation@homeTeamAbbreviation
 
 you should be good to go!
