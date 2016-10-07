@@ -57,7 +57,7 @@ you should be good to go!
 |Pittsburgh|pit|
 |Cleveland|cle|
 |Baltimore|bal|
-|Cincinatti|cin|
+|Cincinnati|cin|
 |Denver|den|
 |Kansas City|kc|
 |Oakland|oak|
