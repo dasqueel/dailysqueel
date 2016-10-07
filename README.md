@@ -1,5 +1,5 @@
 # dailysqueel
-NFL team information aggregator: depth chart, beat writer tweets, links to sbnation and google practicing
+NFL team information aggregator: depth chart, beat writer tweets, links to sbnation and google practicing reports
 
 #### preface:
 This is my first attempt to host a repo on github, so bare with me :D
