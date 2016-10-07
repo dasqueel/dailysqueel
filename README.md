@@ -1,7 +1,7 @@
 # dailysqueel
 NFL team information aggregator: depth chart, beat writer tweets, links to sbnation and google practicing
 
-preface:
+#### preface:
 This is my first attempt to host a repo on github, so bare with me :D
 
 step 1:
@@ -16,7 +16,7 @@ step 2:
 ```
 cd dailysqueel
 
-python bs.py
+python ds.py
 ```
 
 
