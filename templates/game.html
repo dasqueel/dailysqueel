@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{awayTeam['abbr']}}@{{homeTeam['abbr']}}</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( ".accordion" ).accordion({
+      collapsible: true,
+      active: false
+    });
+  } );
+  </script>
+</head>
+<body>
+<a href="http://{{homeTeam['sbnation']}}" target="_blank">sbnation</a> --- <a href="https://www.google.com/search?hl=en&gl=us&tbm=nws&authuser=0&as_qdr=w&q={{homeTeam['nickname']}}+practice+notes&oq={{homeTeam['nickname']}}+practice+notes'" target="_blank">practice notes</a>
+<div class="accordion">
+  <h3>{{homeTeam['abbr']}} depth chart</h3>
+  <div>
+   {{homeTeam['depthChart']}}
+  </div>
+</div>
+<div id='tweets'>
+  {% for tweet in homeTeam['tweets'][:25] %}
+  {{tweet['tweet']}} | {{tweet['minsAgo']}} {% for url in tweet['urls']%}<a href="{{url}}" target="_blank">url</a>{% endfor %}<br>
+  {% endfor %}
+</div>
+
+<br>
+<br>
+<br>
+
+<a href="http://{{awayTeam['sbnation']}}" target="_blank">sbnation</a> --- <a href="https://www.google.com/search?hl=en&gl=us&tbm=nws&authuser=0&as_qdr=w&q={{awayTeam['nickname']}}+practice+notes&oq={{awayTeam['nickname']}}+practice+notes'" target="_blank">practice notes</a>
+<div class="accordion">
+  <h3>{{awayTeam['abbr']}} depth chart</h3>
+  <div>
+   {{awayTeam['depthChart']}}
+  </div>
+</div>
+<div id='tweets'>
+  {% for tweet in awayTeam['tweets'][:25] %}
+  {{tweet['tweet']}} | {{tweet['minsAgo']}} {% for url in tweet['urls']%}<a href="{{url}}" target="_blank">url</a>{% endfor %}<br>
+  {% endfor %}
+</div>
+</body>
+</html>
