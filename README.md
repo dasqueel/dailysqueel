@@ -12,6 +12,12 @@ clone the repository
 git clone https://github.com/dasqueel/dailysqueel.git
 ```
 
+change into the dailysqueel directory
+
+```
+cd dailysqueel
+```
+
 pip install requirements
 ```
 pip install -r requirements.txt
@@ -19,8 +25,6 @@ pip install -r requirements.txt
 
 ## Usage
 ```
-cd dailysqueel
-
 python ds.py
 ```
 
