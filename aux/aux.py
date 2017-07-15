@@ -3,10 +3,10 @@ from dateutil.parser import *
 import datetime
 import pytz
 
-api = twitter.Api(consumer_key='QiNQsfq7VIxrftmuddCEvtmBB',
-                  consumer_secret='KC9oBtsoBuiwZcvslVEFlWePx0AiLIaO8WFI8yEQ5fHdLZSjuq',
-                  access_token_key='411707002-Q9t3EVZLcqiLCEsgQVMJsG2OCdVt1RoYWkBQJzfM',
-                  access_token_secret='K1F1soxnY19ccoJyNKwpK9LFfm62z6UHCIOCeFfhMOlco')
+api = twitter.Api(consumer_key='<your consumer key>',
+                  consumer_secret='<your consumer secret>',
+                  access_token_key='<your access token key>',
+                  access_token_secret='<your access token secret>')
 
 def getTeamTweets(beatWriters):
 	tweets = []
